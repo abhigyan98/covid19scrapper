@@ -1,12 +1,7 @@
 import requests
 import bs4
 from flask import *
-#import numpy as np
-import plot
-from matplotlib.backends.backend_agg import FigureCanvasAgg as FigureCanvas
-from matplotlib.figure import Figure
 import io
-import matplotlib.pyplot as plt
 
 def test():
     url = "https://www.mohfw.gov.in/"
